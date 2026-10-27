@@ -2,6 +2,11 @@
 
 Short pricing scripts that do not deserve a repository on their own.
 
+The option pricer grew into its own repository:
+[option-pricing-lab](https://github.com/Luca-CS/option-pricing-lab) (American, Asian and barrier options
+under Heston, Dupire local volatility and a calibrated stochastic-local-volatility model, with a
+[browser demo](https://luca-cs.github.io/option-pricing-lab/)).
+
 | Script | What it does |
 |---|---|
 | [`Python/montecarlo_pricer_v1.py`](Python/montecarlo_pricer_v1.py) | European option priced by Monte Carlo under Black-Scholes, with two variance-reduction methods: antithetic variates, and a control variate on the terminal price S_T (known mean and variance, coefficient estimated on pilot paths). Prints each estimate with its 95 % interval next to the closed-form Black-Scholes price, and plots the paths and the distribution of S_T. |
